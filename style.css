@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+.section
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    color: #ffeded;
+    text-transform: uppercase;
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
+    will-change: transform;
+}
+
+.section p{
+    font-size: 16px;
+    margin-top: 20px;
+    text-transform: none;
+    width: 400px;
+
+}
+
+section:nth-child(odd)
+{
+    justify-content: center;
+    align-items: flex-end;
+    
+}
